@@ -4,9 +4,7 @@ import {
   Text,
   FlatList,
   StyleSheet,
-  ScrollView,
-  Image,
-  Dimensions,
+  
 } from 'react-native';
 import NewsCard from './components/NewsCard/NewsCard';
 import Banner from './components/Banner/Banner';
