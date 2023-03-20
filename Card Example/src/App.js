@@ -1,12 +1,11 @@
-import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 import Card from './components/Card';
 
 const App = () => {
   return (
-   <View style={styles.container}>
+    <View style={styles.container}>
       <Card title="Muharrem İnce" text="Bi Sus Be Allan Cezası Adam!" />
-      <Card title="Kemal Kılıçdaroğlu" text="Saygıdeğer Levent Göt" />
-      <Card title="Tansu Çiller" text="Ablanızın pıttığı feda olsun size!" />
+      <Card title="Kemal Kılıçdaroğlu" text="Alnımız ak başımız dik" />
     </View>
   );
 };
