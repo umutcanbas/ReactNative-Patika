@@ -1,25 +1,23 @@
 import React from 'react';
 
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import Header from './components/Header';
-import SearchBar from './components/SearchBar';
+import ProductList from './components/ProductList';
+
 const App = () => {
   return (
-    <View style={sytles.container} >
-      <Header/>
-      <SearchBar/>
+    <View style={sytles.container}>
+      <Header />
+      <ProductList />
     </View>
-  )
+  );
 };
 
-
 const sytles = StyleSheet.create({
-  container:{
-    flex:1,
-    backgroundColor:"grey"
-
-  }
-})
-
+  container: {
+    flex: 1,
+    backgroundColor: 'grey',
+  },
+});
 
 export default App;
