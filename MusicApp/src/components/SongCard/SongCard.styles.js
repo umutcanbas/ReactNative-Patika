@@ -38,7 +38,7 @@ export default StyleSheet.create({
   },
   soldout_title: {
     color:"red",
-    fontSize:15,
+    fontSize:13,
   },
   content_container:{
     flexDirection:"row",
