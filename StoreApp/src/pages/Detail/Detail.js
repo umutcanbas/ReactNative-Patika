@@ -1,5 +1,6 @@
 import {View, Text, Image} from 'react-native';
 import React from 'react';
+import Config from 'react-native-config';
 
 import styles from './Detail.style';
 import useFetch from '../../hooks/useFetch/useFetch';
@@ -10,6 +11,7 @@ const Detail = ({route}) => {
   const {id} = route.params;
   const URL = `https://fakestoreapi.com/products/${id} `;
 
+  /* const {loading, error, data} = useFetch(`${Config.PRODUCT_URL}/${id}`); */
   const {loading, error, data} = useFetch(URL);
 
   if (loading) {
